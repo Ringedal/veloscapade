@@ -2,4 +2,19 @@
 label: test
 hide_body: false
 is_partial: false
-fields: []
+fields:
+- type: text
+  name: heading
+  label: Heading
+  description: What is the name of your post?
+  config:
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  description: What do you want to write about?
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
