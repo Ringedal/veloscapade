@@ -18,3 +18,5 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+pages:
+- blog/sweden.md
